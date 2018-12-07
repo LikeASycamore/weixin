@@ -1,0 +1,50 @@
+<!--pages/movie/index.wxml-->
+<view class='container'>
+  <view class='headView'>
+    <view class='leftPic'>
+      <image class='movieImage' src='{{subject.images.small}}'></image>
+    </view>
+    <view class='rightPart'>
+      <view class='movieName'>{{subject.title}}（{{subject.year}}）</view>
+      <view class='movieType'>{{subject.genres}}</view>
+      <view class='buttonView'>
+        <button class='button'>想看</button>
+        <button class='button'>看过</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 评分部分 -->
+  <view class='ratingView'>
+    <view class='ratingTitle'>
+      <view class='titleText'>豆瓣评分</view>
+      <image class='goIcon' src='../../images/forward.png'></image>
+    </view>
+    <view class='ratingBody'>
+      <view class='bodyText'>{{subject.rating.average}}</view>
+    </view>
+    <view class='ratingBody'></view>
+  </view>
+
+  <!-- 简介 -->
+  <view class='simpleIntroView'>
+    <view class='titleText'>简介</view>
+    <view class='bodyText'>伊森·亨特（汤姆·克鲁斯饰）和队友们接到了追回三个大杀伤性核武器的任务。眼见任务马上就能完成，但为了挽救其中一位队友卢瑟·斯蒂克尔（文·瑞姆斯饰）的生命，三个核武器被人趁机带走。</view>
+    <!-- 展开 -->
+    <view class='detail'>
+      <text class='detailText'>展开</text>
+    </view>
+  </view>
+
+  <!-- 演员 -->
+  <view class='actorView'>
+    <view class='actorTitle'>影人</view>
+    <scroll-view class='scrollView' scroll-x>
+      <!-- 图片循环 -->
+      <view class='box' bindtap='toDetailPage' wx:for="{{subject.casts}}" wx:key="{{item.id}}">
+        <image class='img' src='{{item.avatars.small}}'></image>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

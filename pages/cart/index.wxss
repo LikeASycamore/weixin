@@ -1,0 +1,143 @@
+/* pages/cart/index.wxss */
+
+.headView {
+  display: flex;
+  flex-direction: row;
+}
+
+.headIcon {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.headText {
+  margin-left: 30rpx;
+}
+
+.bigPic {
+  width: 750rpx;
+}
+
+.flower {
+  display: flex;
+  flex-direction: row;
+}
+
+.flowerName {
+  margin-left: 30rpx;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.erweima {
+  margin-left: 360rpx;
+}
+
+.share {
+  margin-left: 20rpx;
+}
+
+.peisong {
+  margin-left: 20rpx;
+  width: 750rpx;
+  height: 100rpx;
+  /* background: red; */
+  border-bottom: 20rpx solid #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.price {
+  height: 55rpx;
+  margin-top: 40rpx;
+  /* margin-bottom: 20rpx; *//* background: rosybrown; */
+  color: red;
+  margin-left: 20rpx;
+  border-bottom: 20rpx solid #f8f8f8;
+}
+
+.choose {
+  color: grey;
+}
+
+.publicClass1 {
+  margin-left: 20rpx;
+}
+
+.forward_icon {
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 155rpx;
+}
+
+.detail {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail_text {
+  color: grey;
+}
+
+.service {
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  /* background: red; */
+}
+
+.service_icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.service_text {
+  margin-left: 20rpx;
+}
+
+.welcome {
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30rpx;
+  /* background: red; */
+}
+
+.welcome_text {
+  color: gray;
+}
+
+.cart_icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 300rpx;
+  border-radius: 75rpx;
+  background: #eb6100;
+}
+
+.tec {
+  display: flex;
+  height: 50rpx;
+  justify-content: center;
+  /* background: red; */
+}
+
+.tec_icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.tec_text {
+  color: #cccccc;
+  font-size: 31rpx;
+}

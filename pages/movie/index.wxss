@@ -1,0 +1,151 @@
+/* pages/movie/index.wxss */
+.container{
+  background: #f8f9f4;
+}
+
+.headView {
+  border: 2rpx solid green;
+  width: 750rpx;
+  height: 310rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftPic {
+  /* margin-left: 10rpx; */
+  width: 220rpx;
+  height: 300rpx;
+}
+
+.movieImage {
+  width: 200rpx;
+  height: 280rpx;
+}
+
+.movieName {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.movieType {
+  color: grey;
+  font-size: 28rpx;
+}
+
+.rightPart {
+  margin-left: 20rpx;
+}
+
+.buttonView {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 220rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  margin-left: 5rpx;
+  /* text-align: 80rpx; */
+}
+
+/* 评分部分样式 */
+
+.ratingView {
+  width: 750rpx;
+  height: 260rpx;
+  background: white;
+
+}
+
+.ratingTitle {
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+}
+.ratingBody{
+  /* background: red; */
+    height: 180rpx;
+}
+.ratingBody .bodyText{
+  margin-left: 130rpx;
+  font-weight: bold;
+  font-size: 70rpx;
+}
+
+.titleText {
+  margin-left: 30rpx;
+  font-weight: bold;
+}
+
+.goIcon {
+  margin-left: 500rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.simpleIntroView {
+  width: 750rpx;
+  height: 220rpx;
+  /* background: green; */
+}
+
+.bodyText {
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.detail {
+  width: 750rpx;
+  height: 80rpx;
+  margin-top: 50rpx;
+}
+
+.detailText {
+  margin-left: 640rpx;
+  color: grey;
+}
+
+.actorView {
+  margin-top: 50rpx;
+  width: 750rpx;
+  height: 480rpx;
+  white-space: nowrap;
+}
+
+.actorView .scrollView {
+  width: 750rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction: row;
+  /* 这个属性使得width属性生效，可以滑动 */
+  white-space: nowrap;
+  
+
+}
+
+.actorView .scrollView .box {
+  /* border: 2rpx solid black; */
+  width: 240rpx;
+  height: 270rpx;
+  margin-top: 25rpx;
+  margin-left: 25rpx;
+  display: inline-block;
+}
+
+.actorView .scrollView .box .img {
+
+  width: 240rpx;
+  height: 260rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.actorTitle {
+  margin-left: 30rpx;
+}

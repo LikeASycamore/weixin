@@ -1,0 +1,64 @@
+/* pages/flowerShop/index.wxss */
+
+.head{
+  margin-left: 25rpx;
+  margin-bottom: 25rpx;
+  font-size: 45rpx;
+}
+.body{
+  display: flex;
+  justify-content: space-between; 
+}
+.categoryView{
+  width: 240rpx;
+  height: 1450rpx;
+  background: #f4f4f4;
+}
+.flowerCategory{
+  width: 240rpx;
+  height: 130rpx;
+  font-size: 30rpx;
+  border-bottom: 1rpx solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.detailView{
+  width:500rpx;
+  height: 1450rpx;
+}
+.scrollView{
+  width: 500rpx;
+  height: 260rpx;
+  border-bottom: 1rpx solid grey;
+  display: flex;
+  flex-direction: row;
+  white-space :nowrap ;
+}
+.pic_right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.flowerIcon{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  width:200rpx;
+  height: 200rpx;
+}
+.flowerName{
+   margin-left: 20rpx;
+   font-size: 30rpx;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100rpx;
+  color: red;
+}
+.priceIcon{
+  width: 55rpx;
+  height: 55rpx;
+}

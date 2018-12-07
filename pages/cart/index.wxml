@@ -1,0 +1,43 @@
+
+<view class='body'>
+  <image class='bigPic' src='../../images/flowerCategory/flower3.jpg'></image>
+  <view class='flower'>
+    <view class='flowerName'>泰迪菊</view>
+    <view class='right'>
+      <view class='erweima'>二维码</view>
+      <view class='share'>分享</view>
+    </view>
+  </view>
+
+  <view class='price'>￥7.00</view>
+  <!-- 选择挑选规格 配送方式 用途 -->
+  <view class='peisong'>
+    <view class='choose'>选择</view>
+    <view class='publicClass1'>挑选规格</view>
+    <view class='publicClass1'>配送方式</view>
+    <view class='publicClass1'>用途</view>
+    <image class='forward_icon' src='../../images/flower/forward.png'></image>
+  </view>
+</view>
+<!-- 商品详情 -->
+<view class='detail'>
+  <view class='detail_text'>——————  商品详情  ——————</view>
+</view>
+
+<view class='bottom'>
+  <!-- 售后服务 -->
+  <view class='service'>
+    <image class='service_icon' src='../../images/erji.png'></image>
+    <view class='service_text'>售后服务</view>
+  </view>
+  <!-- 欢迎使用小程序 -->
+  <view class='welcome'>
+    <view class='welcome_text'>欢迎使用小程序!</view>
+    <image class='cart_icon' src='../../images/flowerCategory/cart.png'></image>
+  </view>
+  <!-- 技术支持 -->
+  <view class='tec'>
+    <image class='tec_icon' src='../../images/tec_icon.png'></image>
+    <view class='tec_text'>乐墨花时光 技术支持</view>
+  </view>
+</view>

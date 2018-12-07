@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+  <text>午间新闻</text>
+  <text>马克龙视察遭遇嘘声！法国遭遇13年来最严重骚乱</text>
+  <navigator url='../news/index'>查看详情</navigator>
+  <!-- <view>姓名：{{name}}  年龄：{{age}}</view> -->
+
+</view>

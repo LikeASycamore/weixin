@@ -1,0 +1,23 @@
+<!--pages/zhuiShuBook/index.wxml-->
+<!-- 包含整个页面 -->
+<view class='container'>
+
+  <!-- 显示图书的封面以及最近更新 -->
+  <scroll-view class='scrollView' scroll-y>
+    <view wx:for="{{books}}" wx:key="{{item}}" class='box'>
+      <view class='bookSimpleView'>
+        <image class='bookSmallPic' src='{{item.image}}'></image>
+        <view class='simpleIntroduce'>
+          <!-- 书名以及最新更新内容 -->
+          <view class='bookName'>{{item.bookName}}</view>
+          <view class='bookContent'>{{item.recent}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+
+
+
+
+</view>

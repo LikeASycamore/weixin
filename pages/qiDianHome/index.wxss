@@ -1,0 +1,44 @@
+/* page{ 
+ display: flex; 
+ flex-direction: column; 
+ height: 100%; 
+}  */
+@import "../discover/index.wxss";
+@import "../commulity/index.wxss";
+@import "../zhuiShuBook/index.wxss";
+
+/* 导航栏 */
+
+.head {
+  background: #f24c4e;
+  height: 150rpx;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* .navbarView{
+  width: 750rpx;
+  height: 70rpx;
+} */
+
+.navbar {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .item {
+  line-height: 80rpx;
+}
+
+.navbar .itemActive {
+  color: white;
+  text-decoration: underline;
+}

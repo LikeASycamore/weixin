@@ -1,0 +1,100 @@
+<!--pages/commulity/index.wxml-->
+<!-- 社区 -->
+<view class='community'>
+
+  <view class='headView'>
+    <view class='public'>
+      <view class='publicText'>公共板块</view>
+      <image class='jiantouIcon' src='../../images/zhuishu/jiantou2.png'></image>
+    </view>
+  </view>
+
+  <!-- 内容与功能 -->
+  <view class='publicContentView'>
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/wodedongtai.png'></image>
+        <view class='contentText'>我的动态</view>
+      </view>
+
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/zonghetaolun.png'></image>
+        <view class='contentText'>综合讨论</view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/shuhuanghuzhu.png'></image>
+        <view class='contentText'>书荒互助</view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/jingcaishuping.png'></image>
+        <view class='contentText'>精彩书评</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='publicContentView'>
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/huodongfuli.png'></image>
+        <view class='contentText'>活动福利</view>
+      </view>
+
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/yuanchuangxiezuo.png'></image>
+        <view class='contentText'>原创写作</view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/nvshengmiyu.png'></image>
+        <view class='contentText'>女生密语</view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='box'>
+        <image class='contentIcon' src='../../images/zhuishu/dianzijingji.png'></image>
+        <view class='contentText'>电子竞技</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 书籍社区 -->
+
+  <view class='commulityView'>
+    <view class='cmHead'>
+      <view class='cmText'>书籍社区</view>
+    </view>
+    <!-- 书籍社区评论 -->
+    <view class='cmBody'>
+      <scroll-view class='scrollView' scroll-y>
+        <view wx:for="{{books}}" wx:key="{{item}}" class='bookBox'>
+          <view class='bookSmallpic'>
+            <image class='pic' src='{{item.image}}'></image>
+          </view>
+          <view class='bookName'>
+            <view class='bookNameText'>{{item.bookName}}</view>
+          </view>
+          <view class='comment'>
+            <view class='commentText'>{{item.comment}}</view>
+          </view>
+        </view>
+      </scroll-view>
+
+    </view>
+  </view>
+
+</view>

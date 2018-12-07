@@ -1,0 +1,91 @@
+<!--pages/discover/index.wxml-->
+<!-- 发现页面 -->
+
+<view class='discover'>
+  <view class='container'>
+
+    <view class='box' bindtap='turnTo'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/paihangbang.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>排行榜</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/fenlei.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>分类</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/zhutishudan.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>主题书单</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/shucheng.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>书城</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/vip.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>VIP专区</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/mianfei.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>免费专区</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/suiji.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>随机看书</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+    <view class='box'>
+      <view class='pic'>
+        <image class='icon' src='../../images/zhuishu/manhua.png'></image>
+      </view>
+      <view class='right'>
+        <view class='name'>漫画专区</view>
+        <image class='turnToIcon' src='../../images/zhuishu/turnTo.png'></image>
+      </view>
+    </view>
+
+  </view>
+
+</view>

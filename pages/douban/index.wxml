@@ -1,0 +1,79 @@
+<!--pages/douban/index.wxml-->
+
+<view class='headView'>
+  <view class='searchBar'>
+    <input class='searchInput' type='text' value='搜索'></input>
+  </view>
+</view>
+<view class='topView'>
+
+</view>
+<view class='hotMovieView'>
+  <view class='title'>
+    <view class='hotMovie'>即将上映</view>
+    <view class='moreMovie'>查看更多</view>
+  </view>
+  <scroll-view class='scrollView' scroll-x>
+    <!-- 图片for循环 -->
+    <view class='box'  data-index="{{index}}" data-type="0" bindtap='toDetailPage' wx:for="{{subjects1}}" wx:key="{{item.id}}">
+      <image class='img' src='{{item.images.small}}'></image>
+      <view class='movieName'>{{item.title}}</view>
+      <!-- 评分 -->
+      <view class='average'>{{item.rating.average}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='hotMovieView'>
+  <view class='title'>
+    <view class='hotMovie'>正在上映</view>
+    <view class='moreMovie'>查看更多</view>
+  </view>
+
+  <scroll-view class='scrollView' scroll-x>
+    <!-- 图片for循环 -->
+    <view class='box'  data-index="{{index}}" data-type="1" bindtap='toDetailPage' wx:for="{{subjects2}}" wx:key="{{item.id}}">
+      <image class='img' src='{{item.images.small}}'></image>
+      <view class='movieName'>{{item.title}}</view>
+      <!-- 评分 -->
+      <view class='average'>{{item.rating.average}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='hotMovieView'>
+  <view class='title'>
+    <view class='hotMovie'>Top250</view>
+    <view class='moreMovie'>查看更多</view>
+  </view>
+
+  <scroll-view class='scrollView' scroll-x>
+    <!-- 图片for循环 -->
+    <view class='box'  data-index="{{index}}" data-type="2" bindtap='toDetailPage' wx:for="{{subjects3}}" wx:key="{{item.id}}">
+      <image class='img' src='{{item.images.small}}'></image>
+      <view class='movieName'>{{item.title}}</view>
+      <!-- 评分 -->
+      <view class='average'>{{item.rating.average}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+
+<view class='hotMovieView'>
+  <view class='title'>
+    <view class='hotMovie'>北美票房榜</view>
+    <view class='moreMovie'>查看更多</view>
+  </view>
+
+  <scroll-view class='scrollView' scroll-x>
+    <!-- 图片for循环 -->
+    <view class='box'  data-index="{{index}}" data-type="3" bindtap='toDetailPage' wx:for="{{subjects4}}" wx:key="{{item.id}}">
+      <image class='img' src='{{item.subject.images.small}}'></image>
+      <view class='movieName'>{{item.subject.title}}</view>
+      <!-- 评分 -->
+      <view class='average'>{{item.subject.rating.average}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='images'></view>

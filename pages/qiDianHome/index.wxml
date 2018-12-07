@@ -1,0 +1,20 @@
+<!--导航条-->
+<view class='head'>
+    <view class="navbar">
+      <view wx:for="{{navbar}}" data-idx="{{index}}" class='{{currentTab==index ?"itemActive" : "item"}}' wx:key="unique" bindtap="navbarTap">{{item}}</view>
+    </view>
+</view>
+
+<swiper current="{{currentTab}}" style="height:500px;" duration="300">
+  <swiper-item style="height:1000px;" >
+    <include src='../zhuiShuBook/index.wxml' />
+  </swiper-item>
+
+  <swiper-item>
+    <include src='../commulity/index.wxml' />
+  </swiper-item>
+
+  <swiper-item>
+    <include src='../discover/index.wxml' />
+  </swiper-item>
+</swiper>

@@ -1,0 +1,47 @@
+/* page{ 
+ display: flex; 
+ flex-direction: column; 
+ height: 100%; 
+}  */
+@import "../rankingListOfMan/index.wxss";
+@import "../rankingListOfWomen/index.wxss";
+
+
+
+/* 导航栏 */
+
+.head {
+  /* background: #f24c4e; */
+  height: 180rpx;
+  /* height: 10%; */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background: #f9f9f9;
+}
+
+.navbar {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .item {
+  line-height: 80rpx;
+  /* width: 280rpx; */
+}
+
+.navbar .itemActive {
+  text-decoration: underline;
+}
+
+.swiper{
+  /* background: red; */
+  /* margin-bottom: 150rpx; */
+}

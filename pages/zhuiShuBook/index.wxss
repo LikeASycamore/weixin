@@ -1,0 +1,58 @@
+/* pages/zhuiShuBook/index.wxss */
+.container{
+  width: 750rpx;
+  height: 1400rpx;
+  /* background: black; */
+    /* background: black; */
+}
+
+.container .scrollView{
+  width: 730rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.container .scrollView .box{
+  margin-left: 30rpx;
+  width: 650rpx;
+  /* border: 2rpx solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .bookSimpleView{
+  width: 650rpx;
+  display: flex;
+  flex-direction: row;
+  height: 250rpx;
+  /* border: 1rpx solid black; */
+
+}
+.container .bookSimpleView .bookSmallPic{
+  margin-top: 40rpx;
+  width: 120rpx;
+  height: 160rpx;
+}
+.container .bookSimpleView .simpleIntroduce{
+  margin-top: 60rpx;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.simpleIntroduce .bookName{
+  /* font-family: BiauKai ; */
+
+}
+.simpleIntroduce .bookContent{
+  margin-top: 20rpx;
+  color: grey;
+  font-size: 30rpx;
+  width: 400rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap; 
+}

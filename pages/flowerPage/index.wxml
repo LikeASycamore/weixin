@@ -1,0 +1,66 @@
+<view class='box'>
+
+  <view class='headView'>
+    <!-- 后退图标视图 -->
+    <view class='titleView'>
+      <image id='backButton' src='../../images/flower/icon-arrowdown.png'></image>
+    </view>
+    <!-- 鲜花图标以及店名视图 -->
+    <view class='iconView'>
+      <image class='icon' src='../../images/flower/flower.png'></image>
+      <view class='iconViewText'>绿荫阁鲜花店</view>
+    </view>
+    <!-- 地址视图 -->
+    <view class='addressView' bindtap='toShop'>
+      <image class='icon' src='../../images/flower/iconfont-addr-default.png'></image>
+      <view class='address'>四川省成都市郫都区红光镇</view>
+      <view class='distance'>1.4KM</view>
+    </view>
+    <!-- 时间视图 -->
+    <view class='timeView'>
+      <image class='icon' src='../../images/flower/clock1.png'></image>
+      <view class='timeViewText'>00:00-24:00</view>
+    </view>
+    <!-- 电话号码 -->
+    <view class='phoneView' bindtap='call'>
+      <image class='phoneIcon' src='../../images/flower/phone1.png'></image>
+      <view class='phoneNumber'>13408004975</view>
+      <image class='forwardIcon' src='../../images/flower/forward.png'></image>
+    </view>
+  </view>
+
+    <!-- 内容视图 -->
+    <view class='bodyView'>
+      <!-- 预约外送 -->
+      <view class='orderView'>
+        <image class='orderViewIcon' src='../../images/flower/orderPhone.png'></image>
+        <view class='orderViewText'>预约</view>
+        <image class='orderViewIcon' src='../../images/flower/waisong.png'></image>
+        <view class='orderViewText'>外送</view>
+      </view>
+
+      <!-- 鲜花花束 -->
+      <view class='bouquetView'>
+        <view class='bouquetViewText'>鲜花花束</view>
+        <image class='forwardIcon' src='../../images/flower/forward.png'></image>
+      </view>
+
+      <!-- 开业花篮 -->
+      <view class='bouquetView'>
+        <view class='bouquetViewText'>开业花篮</view>
+        <image class='forwardIcon' src='../../images/flower/forward.png'></image>
+      </view>
+      <!-- 展开更多服务 -->
+      <view class='moreServiceView'>
+        <view class='viewText'>展开更多服务</view>
+      </view>
+    </view>
+
+<!-- 门店图片 -->
+    <view class='bottomView'>
+      <view class='shopPicText'>门店图片</view>
+      <image class='shopPic' src='../../images/flower/shopPic.jpg'></image>
+    </view>
+
+
+</view>

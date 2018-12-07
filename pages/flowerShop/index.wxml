@@ -1,0 +1,104 @@
+<!--pages/flowerShop/index.wxml-->
+<view class='head'>分类</view>
+
+<view class='body'>
+  <!-- 花卉分类 -->
+  <view class='categoryView'>
+    <view class='flowerCategory'>全部</view>
+
+    <view class='flowerCategory'>会议</view>
+
+    <view class='flowerCategory'>爱情花礼</view>
+
+    <view class='flowerCategory'>除甲醛</view>
+
+    <view class='flowerCategory'>花盆</view>
+
+    <view class='flowerCategory'>花瓶</view>
+
+    <view class='flowerCategory'>绿植</view>
+
+    <view class='flowerCategory'>家庭用花</view>
+
+    <view class='flowerCategory'>伴手小花礼</view>
+
+    <view class='flowerCategory'>开业庆典</view>
+
+    <view class='flowerCategory'>送长辈花礼</view>
+
+  </view>
+
+  <!-- 种类花卉详情 -->
+  <scroll-view class='detailView' scroll-y>
+    <view class='flowerDetail' bindtap='flowerClick'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>泰迪菊</view>
+        <view class='price'>
+          <!-- <image class='priceIcon' src='../../images/flowerCategory/price.png'></image> -->
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>幸福的光</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>财源滚滚</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>爱你99</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>一心一意</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>小公主</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+        <view class='flowerDetail'>
+      <image class='flowerIcon' src='../../images/flowerCategory/flower1.jpg'></image>
+      <view class='pic_right'>
+        <view class='flowerName'>幸福的光</view>
+        <view class='price'>
+          <view class='priceText'>￥5.00</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+</view>

@@ -1,0 +1,198 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.headView {
+  width: 750rpx;
+  height: 750rpx;
+  background: #8a4b5c;
+}
+
+.titleView {
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#backButton {
+  margin-left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.iconView {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 400rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  border: 2rpx solid #734b53;
+}
+
+.iconViewText {
+  margin-top: 50rpx;
+  font-size: 38rpx;
+  color: #e7f8f2;
+}
+
+.addressView {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60rpx;
+}
+
+.addressView .icon {
+  width: 45rpx;
+  height: 50rpx;
+}
+
+.addressView .address {
+  color: #ffeef4;
+  font-size: 30rpx;
+  margin-left: 40rpx;
+}
+
+.addressView .distance {
+  color: #c799a4;
+  padding-top: 10rpx;
+  margin-left: 140rpx;
+  font-size: 28rpx;
+}
+
+.timeView {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60rpx;
+  color: #ffeef4;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+.timeView .icon {
+  width: 45rpx;
+  height: 50rpx;
+}
+
+.timeView .timeViewText {
+  color: #ffeef4;
+  font-size: 30rpx;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+}
+
+.phoneView {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60rpx;
+  color: #ffeef4;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+.phoneView .phoneIcon {
+  width: 45rpx;
+  height: 50rpx;
+}
+
+.phoneView .phoneNumber {
+  margin-left: 40rpx;
+}
+
+.phoneView .forwardIcon {
+  margin-left: 330rpx;
+  width: 35rpx;
+  height: 40rpx;
+}
+
+.bodyView {
+  width: 750rpx;
+  height: 550rpx;
+  background: white;
+  border-bottom: 15rpx solid #f2f2f2;
+}
+
+.orderView {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  height: 100rpx;
+  font-size: 38rpx;
+  border-bottom: 1rpx solid gray;
+  margin-left: 20rpx;
+  margin-top: 50rpx;
+}
+
+.orderView .order {
+  font-size: 33rpx;
+}
+
+.orderView .orderViewText {
+  margin-left: 15rpx;
+}
+
+.orderView .orderViewIcon {
+  margin-left: 150rpx;
+  width: 45rpx;
+  height: 50rpx;
+}
+
+.bouquetView {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid grey;
+  margin-left: 20rpx;
+  margin-top: 35rpx;
+}
+
+.bouquetView .bouquetViewText {
+  font-size: 38rpx;
+}
+
+.bouquetView .forwardIcon {
+  margin-left: 490rpx;
+  width: 35rpx;
+  height: 40rpx;
+}
+
+.moreServiceView {
+  width: 750rpx;
+  height: 150rpx;
+}
+
+.moreServiceView .viewText {
+  margin-top: 50rpx;
+  margin-left: 260rpx;
+  font-size: 35rpx;
+  color: #b7babf;
+}
+
+.bottomView {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.bottomView .shopPicText {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  font-size: 32rpx;
+  color: grey;
+}
+
+.bottomView .shopPic {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  width: 200rpx;
+  height: 200rpx;
+}

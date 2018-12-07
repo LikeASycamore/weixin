@@ -1,0 +1,52 @@
+<!-- 女生读书排行榜 -->
+<view class='women'>
+  <view class='container'>
+    <!-- 榜单分类 -->
+    <view class='categoryView'>
+      <view class='{{id==0?"bookCategoryActive":"bookCategory"}}' data-type='0' bindtap='buttonClick'>最热榜</view>
+
+      <view class='{{id==1?"bookCategoryActive":"bookCategory"}}' data-type='1' bindtap='buttonClick'>好评榜</view>
+
+      <view class='{{id==2?"bookCategoryActive":"bookCategory"}}' data-type='2' bindtap='buttonClick'>热搜榜</view>
+
+      <view class='{{id==3?"bookCategoryActive":"bookCategory"}}' data-type='3' bindtap='buttonClick'>VIP榜</view>
+
+      <view class='{{id==4?"bookCategoryActive":"bookCategory"}}' data-type='4' bindtap='buttonClick'>潜力榜</view>
+      <view class='{{id==5?"bookCategoryActive":"bookCategory"}}' data-type='5' bindtap='buttonClick'>留存榜</view>
+
+      <view class='{{id==6?"bookCategoryActive":"bookCategory"}}' data-type='6' bindtap='buttonClick'>完结榜</view>
+
+      <view class='{{id==7?"bookCategoryActive":"bookCategory"}}' data-type='7' bindtap='buttonClick'>漫画榜</view>
+
+
+      <view class='{{id==8?"bookCategoryActive":"bookCategory"}}' data-type='8' bindtap='buttonClick'>其他</view>
+
+    </view>
+
+    <!-- 榜单书籍 -->
+    <scroll-view class='scrollView' scroll-y>
+      <view wx:for="{{books}}" wx:key="{{item}}" class='book' bindtap='bookClick'>
+        <view class='box'>
+          <image class='bookImg' src='{{item.image}}'></image>
+          <view class='pic_right'>
+            <view class='bookName'>{{item.bookName}}</view>
+            <view class='author'>{{item.author}}</view>
+            <view class='simpleIntro'>{{item.simpleIntro}}</view>
+            <view class='hotView'>
+              <view class='text'>
+                <text class='redText'>{{item.popularity}}</text>人气
+              </view>
+              <view class='spilt'>|</view>
+              <view class='text'>
+                <text class='redText'>{{item.save}}</text>读者留存
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </scroll-view>
+
+  </view>
+
+</view>

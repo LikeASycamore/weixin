@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<text>登录页面</text>
+<input class='input' type='text' value='用户名'></input>
+<input class='input' type='password' value='密码'></input>
+<button bindtap='bindButton'>登录</button>

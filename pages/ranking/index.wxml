@@ -1,0 +1,18 @@
+<!--导航条-->
+<view class='head'>
+  <view class="navbar">
+    <view wx:for="{{navbar}}" data-idx="{{index}}" class='{{currentTab==index ?"itemActive" : "item"}}' wx:key="unique" bindtap="navbarTap">{{item}}</view>
+  </view>
+</view>
+
+<view class='ranking'>
+  <swiper current="{{currentTab}}" class='swiper' style="height:1180rpx;" duration="300">
+    <swiper-item>
+      <include src='../rankingListOfMan/index.wxml' />
+    </swiper-item>
+
+    <swiper-item>
+      <include src='../rankingListOfWomen/index.wxml' />
+    </swiper-item>
+  </swiper>
+</view>

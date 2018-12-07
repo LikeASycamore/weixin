@@ -1,0 +1,65 @@
+/* pages/douban/index.wxss */
+
+.headView{
+  background: green;
+  width: 750rpx;
+  height: 150rpx;
+}
+.searchBar{
+  width:750rpx;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+.searchInput{
+  margin-top: 30rpx;
+  width: 700rpx;
+    background: white;
+}
+.hotMovieView{
+
+}
+.hotMovie{
+  font-weight: bold;
+}
+.moreMovie{
+  color: #339900;
+  font-weight: bold;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hotMovieView .scrollView{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  /* 这个属性使得width属性生效，可以滑动 */
+  white-space: nowrap;
+}
+.hotMovieView .scrollView .box{
+  margin-top: 25rpx;
+  margin-left: 25rpx;
+  display: inline-block;
+}
+
+.hotMovieView .scrollView .img{
+  width: 220rpx;
+  height: 350rpx;
+  display: flex;
+  flex-direction: row;
+}
+.movieName{
+  font-size: 27rpx;
+  font-weight: bold;
+  overflow: hidden;
+  width: 220rpx;
+  text-overflow: ellipsis
+}
+.average{
+  font-size: 27rpx;
+  color: red;
+}
