@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/qiDianHome/index",
+    "pages/ranking/index",
+    "pages/commulity/index",
+    "pages/rankingListOfWomen/index",
+    "pages/rankingListOfMan/index",
+    "pages/discover/index",
+    "pages/zhuiShuBook/index",
+    "pages/douban/index",
+    "pages/movie/index",
+    "pages/index/index",
+    "pages/cart/index",
+    "pages/flowerShop/index",
+    "pages/flowerPage/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/test/index",
+    "pages/news/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/flowerCategory/home.png",
+        "selectedIconPath": "images/flowerCategory/home_active.png"
+      },
+      {
+        "pagePath": "pages/flowerShop/index",
+        "text": "分类",
+        "iconPath": "images/flowerCategory/class.png",
+        "selectedIconPath": "images/flowerCategory/class_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "门店",
+        "iconPath": "images/flowerCategory/location.png",
+        "selectedIconPath": "images/flowerCategory/location_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/flowerCategory/mine.png",
+        "selectedIconPath": "images/flowerCategory/mine_active.png"
+      }
+    ]
+  }
+}
